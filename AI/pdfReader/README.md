@@ -15,12 +15,16 @@ This is a simple Streamlit web app that extracts and summarizes text from PDF fi
 git clone https://github.com/G-Cancilla/GCancillaProjects.git
 cd GCancillaProjects/AI/pdfReader
 
+#Start python environment (if you want)
 python -m venv venv
+
 # Windows
 venv\Scripts\activate
+
 # macOS/Linux
 source venv/bin/activate
 
+#install the requirements for the project 
 pip install -r requirements.txt
 
 streamlit run main.py
